@@ -15,7 +15,7 @@ services:
 - serviceName: pub.alert:emit
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2067
+    version: 11.1.0.0.2068
 - serviceName: project.siqa_git_1806_1.integrations:deepclonetest
   packages:
   - name: SIQA_GIT_1806_1Project
@@ -23,12 +23,20 @@ services:
 - serviceName: pub.string:stringToBytes
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2067
+    version: 11.1.0.0.2068
 - serviceName: pub.utils:deepClone
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2067
+    version: 11.1.0.0.2068
 - serviceName: pub.string:bytesToString
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2067
+    version: 11.1.0.0.2068
+- serviceName: project.siqa_git_1806_1.integrations:refdaf
+  packages:
+  - name: SIQA_GIT_1806_1Project
+    version: "1.0"
+- serviceName: project.siqa_git_1806_1.referencedata:ref1
+  packages:
+  - name: SIQA_GIT_1806_1Project
+    version: "1.0"
